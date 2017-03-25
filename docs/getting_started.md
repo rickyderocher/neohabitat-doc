@@ -132,9 +132,13 @@ docker-compose restart neohabitat
 Step 2 - Build and Start Neohabitat Services (with Vagrant)
 -----------------------------------------------------------
 
+Important note: The latest version of Vagrant (1.9.3) can cause issues with
+building Neohabitat - if you experience troubles then please use the older 
+version 1.9.1 instead.
+
 Open a **standard Windows command line (cmd.exe, not Bash or PowerShell)** and
-navigate via `cd` to the location of your Neohabitat checkout. Run the following
-command:
+navigate via `cd` to the location of your Neohabitat checkout. (C:\neohabitat)
+Run the following command:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ bash
 vagrant up --provider=virtualbox
